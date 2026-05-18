@@ -287,55 +287,6 @@ The result indicates that the improvement is statistically significant and unlik
 
 ---
 
-## 📁 Suggested Repository Structure
-
-```bash
-bangla-violence-detection-bx-ensemble/
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── README_DATA.md
-│
-├── notebooks/
-│   ├── 01_dataset_preprocessing.ipynb
-│   ├── 02_eda_visualization.ipynb
-│   ├── 03_traditional_ml_baselines.ipynb
-│   ├── 04_transformer_training.ipynb
-│   └── 05_bx_ensemble_training.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── dataset.py
-│   ├── train_traditional_ml.py
-│   ├── train_transformers.py
-│   ├── train_bx_ensemble.py
-│   ├── evaluate.py
-│   └── utils.py
-│
-├── models/
-│   └── saved_checkpoints/
-│
-├── results/
-│   ├── classification_reports/
-│   ├── confusion_matrices/
-│   └── model_comparison.csv
-│
-├── assets/
-│   ├── dataset_pipeline.png
-│   ├── bx_architecture.png
-│   └── macro_f1_comparison.png
-│
-└── paper/
-    └── paper.pdf
-```
-
----
-
 ## 🚀 Quick Start
 
 ### 1. Clone the Repository
